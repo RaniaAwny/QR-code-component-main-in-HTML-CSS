@@ -1,39 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
-
-img{
-    max-width: 100%;
-    border-radius: 0.625rem;
-}
-
-body{
-    font-family:"outfit", sans-serif;
-    background-color: hsl(212, 45%, 89%);
-    display: flex;
-    flex-direction: column;
-    align-items:center;
+:root{
+    background-color: lightgray;
+    color: darkblue;
+    text-align: center;
     justify-content: center;
+    }
+    
+    :font {
+    font-family: san-serif;
+    font-size: normal;
+    font-weight: 400;
+    font-display: swap;
+    }
+    :font {
+        font-family: san-serif;
+        font-size: normal;
+        font-weight: 700;
+        font-display: swap;
+        }
+    
+        ::before,
+        ::after{
+            box-sizing: border-box;
+        }
+    
+    
+    body{
+    margin: unset;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: lightgray;
     display: grid;
+    min-height: 20vh;
+    text-size-adjust: none;
     place-items: center;
+    -webkit-text-size-adjust: none;
     height: 100vh;
-
-}
-
-main{
-    background-color: hsl(0, 0%, 100%);
-    padding: 1.25rem;
-    border-radius: 0.625rem;
-    box-shadow: 5px 5px 5px rgb(0,0,0,0.3);
-    place-items: center;
-}
-
-h1 {
+    }
+    
+    img {
+    max-width: 100%;
+    border-radius: 0.845rem;
+    
+    }
+    
+    h1{
     color: hsl(218, 44%, 22%);
-    font-size: 1.090rem;
-    place-items: center;
+    font-size: 1.375rem;
+    line-height: 1.275rem;
+    margin-top: 0.5em;
+    }
+    
+    main {
+    background-color: white;
+    max-width: 320px;
+    padding: 1.075rem;
+    border-radius: 1.35rem;
+    text-align: center;
+    margin: 2.5rem;
+    }
 
-}
-
-p{
-    color: hsl(220, 15%, 55%);
-    place-items: center;
-}
+    P {
+     color: hsl(220, 15%, 55%);
+     font-size: 15px;
+     line-height: 1.3;
+     margin: 0.5em;
+    }
